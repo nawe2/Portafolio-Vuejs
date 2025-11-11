@@ -1,0 +1,24 @@
+:root {
+  --fondo-principal: #0f172a;
+  --fondo-secundario: #1e293b;
+  --acento: #6366f1;
+  --texto: #f1f5f9;
+  --texto-suave: #cbd5e1;
+  --borde: #334155;
+  --sombra: 0 4px 6px rgba(0, 0, 0, 0.4);
+  --borde-radio: 12px;
+}
+
+
+html, body, #app {
+  background: var(--fondo-principal);
+  color: var(--texto);
+  min-height: 100%;
+}
+a { color: var(--acento); }
+.card, .panel, .contenedor, .seccion {
+  background: var(--fondo-secundario);
+  border: 1px solid var(--borde);
+  border-radius: var(--borde-radio);
+  box-shadow: var(--sombra);
+}
